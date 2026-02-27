@@ -70,7 +70,6 @@ def get_voltage(pin):
 
 # Funkcija za pretvaranje napona u temperaturu
 def get_temperature(voltage):
-   # MCP9700A ima izlaz od 10mV/°C s pomakom od 500mV na 0°C
     temp = (voltage - 0.5) * 100
     temp = "{:.1f}".format(temp) + " °C"
     return temp
