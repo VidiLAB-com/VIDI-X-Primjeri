@@ -116,8 +116,8 @@ def menu(questionText, a, b, c, d, correctAnswer):
     roundrectB.outline = 0x0000FF
     roundrectC.outline = 0x0000FF
     roundrectD.outline = 0x0000FF
-    text_areaL.text = "Level: " + str(level)
-    text_areaS.text = "Score: " + str(score)
+    text_areaL.text = "Razina: " + str(level)
+    text_areaS.text = "Rezultat: " + str(score)
     text_areaQ.text = str(level) + "." + questionText
     text_areaA.text = "A: "+ str(a)
     text_areaB.text = "B: "+ str(b)
