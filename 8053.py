@@ -5,15 +5,15 @@ import simpleio
 PIEZO_PIN = board.GPIO25
 
 # Frekvencije nota
-NOTE_C4 = 262
-NOTE_D4 = 294
-NOTE_E4 = 330
-NOTE_F4 = 349
-NOTE_G4 = 392
-NOTE_A4 = 440
-NOTE_B4 = 466
-NOTE_H4 = 494
-NOTE_C5 = 523
+NOTE_C4 = 
+NOTE_D4 = 
+NOTE_E4 = 
+NOTE_F4 = 
+NOTE_G4 = 
+NOTE_A4 = 
+NOTE_B4 = 
+NOTE_H4 = 
+NOTE_C5 = 
 
 trajanje = 0.27   
 # mala pauza između nota
